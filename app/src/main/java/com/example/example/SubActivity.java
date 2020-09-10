@@ -194,6 +194,10 @@ public class SubActivity extends AppCompatActivity {
                 editor.commit();
 
 
+
+
+
+
                 //Log.v("kjw_AFTcommitTitle", sp.getString("title", null));
                 //Log.v("kjw_AFTcommitContents",  sp.getString("contents" , null));
 
