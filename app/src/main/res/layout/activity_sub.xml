@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout1">
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등록"
+            android:onClick="onAddButtonClicked"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLogoutButtonClicked"
+            android:text="로그아웃"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+
+        <ListView
+            android:id="@+id/ListView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Button1">
+        </ListView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
